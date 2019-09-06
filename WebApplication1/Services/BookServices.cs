@@ -49,6 +49,39 @@ namespace WebApplication1.Services
             return response;
         }
 
+        public Response RemoveBookById(int id)
+        {
+            if (_validity.IdIsValid(id))
+            {
+                var lis = _bookData.GetBookList();
+
+                for (int i = 0; i < lis.Count; i++)
+                {
+                    if (lis[i].Id == id)
+                    {
+                        _bookData.RemoveAt(i);
+
+                        response.Data = _bookData.GetBookList();
+                        response.StatusCode = 200;
+                        response.Message = "Success";
+                        response.ErrorList = null;
+                        return response;
+                    }
+                }
+                response.Data = null;
+                response.StatusCode = 404;
+                response.Message = "Book Not Found";
+                response.ErrorList.Add("The ID entered was not found in the BookStore");
+                return response;
+
+            }
+            response.Data = null;
+            response.StatusCode = 406;
+            response.Message = "Invalid ID, ID cannot be negative";
+            response.ErrorList.Add("Invalid ID, ID cannot be negative");
+            return response;
+        }
+
         public Response AddBook(Book book)
         {
             if (_validity.isValidBook(book))

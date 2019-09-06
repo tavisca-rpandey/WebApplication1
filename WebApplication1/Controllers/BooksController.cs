@@ -16,7 +16,7 @@ namespace WebApplication1.Controllers
         BookServices Services = new BookServices();
         // GET: api/values
         [HttpGet]
-        public ActionReSsult Get()
+        public ActionResult Get()
         {
             var response = Services.GetBooks();
 
@@ -53,7 +53,7 @@ namespace WebApplication1.Controllers
         public ActionResult Delete(int id)
         {
             var response = Services.RemoveBookById(id);
-
+            return StatusCode(response.StatusCode, response);
         }
     }
 }
