@@ -1,0 +1,16 @@
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\BookApiXTests.deps.json
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\BookApiXTests.runtimeconfig.json
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\BookApiXTests.runtimeconfig.dev.json
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\BookApiXTests.dll
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\BookApiXTests.pdb
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\WebApplication1.dll
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\bin\Debug\netcoreapp2.2\WebApplication1.pdb
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\obj\Debug\netcoreapp2.2\BookApiXTests.csprojResolveAssemblyReference.cache
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\obj\Debug\netcoreapp2.2\BookApiXTests.csproj.CoreCompileInputs.cache
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\obj\Debug\netcoreapp2.2\BookApiXTests.AssemblyInfoInputs.cache
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\obj\Debug\netcoreapp2.2\BookApiXTests.AssemblyInfo.cs
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\obj\Debug\netcoreapp2.2\BookApiXTests.dll
+c:\users\rpandey\source\repos\WebApplication1\BookApiXTests\obj\Debug\netcoreapp2.2\BookApiXTests.pdb
